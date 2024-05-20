@@ -12,7 +12,17 @@ passwordbutton.addEventListener("click", function (e){
 })
 
 
+let bok1 = {
 
+    bokomslag: "",
+    namn: "Harry Peter och flykten från upphovsrättsadvokaterna.",
+    forfattare: "Grover Cleveland",
+    utgivningsar: "1850",
+    genre: "Äventyr",
+
+
+
+}
 
 
 

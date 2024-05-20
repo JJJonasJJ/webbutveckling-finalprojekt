@@ -1,11 +1,30 @@
 header {
     width: 100.18%;
     height: 100px;
-    background-color: aqua;
+    background-color: rgb(32, 160, 250);
     border: 2px solid rgb(159, 168, 173);
     padding: 5px;
     margin-top: -8px;
     margin-left: -8px;
+    display: flex;
+    flex-wrap: wrap;
 
+
+}
+
+
+#logga {
+
+    height: 90px;
+    width: 90px;
+
+
+}
+
+footer {
+
+    width: 100.18%;
+    height: 200px;
+    background-color: gray;
 
 }
