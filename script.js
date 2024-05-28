@@ -1,14 +1,4 @@
-const loginform = document.getElementById("loginform")
-const passwordbutton = document.getElementById("submitbutton")
-const loginp = document.getElementById("logininfo")
 const bookTable = document.getElementById("bok-tabell");
-
-// passwordbutton.addEventListener("click", function (e){
-//     e.preventDefault()
-//     let submittedpassword = loginform.value
-//     if(submittedpassword === "zzyzyva"){window.location="admin.html"}
-//         else{loginp.innerText = "Fel lösenord!"}
-// })
 
 const boker = [{
 
@@ -16,7 +6,7 @@ const boker = [{
     forfattare: "Grover Cleveland",
     utgivningsar: "1850",
     genre: "Äventyr",
-    utlanad: "Ja",
+    utlanad: "Utlånad",
 
 }, {
 
@@ -24,7 +14,7 @@ const boker = [{
     forfattare: "Jager Klarvaken",
     utgivningsar: "1999",
     genre: "Faktabok",
-    utlanad: "Nej",
+    utlanad: "Finns tillgänglig att låna",
 
 },{
 
@@ -32,15 +22,15 @@ const boker = [{
     forfattare: "Herr Herrstrom",
     utgivningsar: "2004",
     genre: "Skräck",
-    utlanad: "Nej",
+    utlanad: "Finns tillgänglig att låna",
 
 },{
 
     namn: "Ananas",
-    forfattare: "Klara Sundström",
+    forfattare: "Amanda Sundström",
     utgivningsar: "2023",
     genre: "Barnbok",
-    utlanad: "Ja",
+    utlanad: "Utlånad",
 
 },{
 
@@ -48,7 +38,7 @@ const boker = [{
     forfattare: "Clara Rowley",
     utgivningsar: "2000",
     genre: "Skönlitteratur",
-    utlanad: "Nej",
+    utlanad: "Finns tillgänglig att låna",
 
 }]
 

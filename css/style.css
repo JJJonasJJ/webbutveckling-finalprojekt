@@ -19,7 +19,27 @@ li {
 
 }
 
+tr:nth-child(even){
 
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4a/Color_changing_gradient_rainbow.gif);
+
+}
+
+tr:nth-child(odd){
+
+    background-color: blanchedalmond;
+
+}
+
+tr:last-child {
+
+    font-style: italic;
+}
+
+td {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
 
 
 #logga {
@@ -39,18 +59,30 @@ li {
     margin-top: -10px;
  
     margin-bottom: -5px;
+    
 
 
 }
 
+
+
 #telefonbild {
 
-    margin-left: 64vw;
+    margin-left: 68vw;
     margin-top: -20vw;
     height: 275px;
-    width: -20vw;
+    width: 30vw;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 
 
+}
+
+@keyframes fadein{
+
+    from {opacity: 0%; margin-left: 32vw;}
+    to {opacity: 100%; margin-left: 68vw}
 }
 
 footer {
@@ -66,7 +98,4 @@ footer {
     margin-bottom: -50px;
     margin-right: -100px;
 
-}
-tr {
-    border-bottom: 5px solid black;
 }
