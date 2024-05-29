@@ -63,6 +63,11 @@ li {
     font-family: Arial;
 
 }
+ul {
+
+    list-style-type: none;
+
+}
 
 tr:nth-child(even){
 
