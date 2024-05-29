@@ -1,21 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-    
-<p>Hello World!</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Admin</title>
+        <link rel="stylesheet" href="../css/style.css">
 
-<footer>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="../bilder/loggabild.png" alt="Täbys Logotyp" id="logga">
+            <h1>Välkommen till admin-hemsidan!</h1>
+        </header>
+        <section>
+            <h2>Här kan du kolla vem som lånat olika böcker, samt den generellt tillgängliga informationen.</h2>
+            <table id="bok-tabell">
+                <thead>
+                <tr>
+                    <th>Boktitel</th>
+                    <th>Författare</th>
+                    <th>Utgivningsår</th>
+                    <th>Genre</th>
+                    <th>Lånestatus</th>
+                    <th>Admin: LånareID</th>
+                </tr>
+                </thead>
+                <tbody id="tabell-body">
 
-    <a href="index.html">Test</a>
-    <a href="kontakt.html">Test</a>
+                </tbody>
+                <tfoot id="tabell-footer">
 
-
-</footer>
-</body>
+                </tfoot>
+            </table>
+        </section>
+        <footer>
+            <nav>
+                <ul>
+                    <ol class="nav"><a href="index.html">Gå till index.html</a></ol>
+                    <ol class="nav"><a href="kontakt.html">Gå till kontakt.html</a></ol>
+                    <ol class="nav"><a href="login.html">Gå till login.html</a></ol>
+                </ul>
+            </nav>
+        </footer>
+        <script src="script.js"></script>
+    </body>
 </html>

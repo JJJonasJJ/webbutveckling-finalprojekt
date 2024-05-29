@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ditt Digitala Bibliotek!</title>
         <link rel="stylesheet" href="../css/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Hämtar från google fonts fonten jersey 20( rad 9,10,11) -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -13,24 +17,34 @@
         </header>
         <main>
             <img src="../bilder/pexels-rafael-cosquiere-1059286-2041540.jpg" alt="Bild på en korridor i ett bibliotek" id="korridorbild" loading="lazy">
-            <h2>Våra böcker som du kan låna:</h2>
-            <table id="bok-tabell">
-                <tr>
-                    <th>Boktitel</th>
-                    <th>Författare</th>
-                    <th>Utgivningsår</th>
-                    <th>Genre</th>
-                    <th>Lånestatus</th>
-                </tr>
-            </table>
+            <section>
+                <h2>Våra böcker som du kan låna:</h2>
+                <table id="bok-tabell">
+                    <thead>
+                    <tr>
+                        <th>Boktitel</th>
+                        <th>Författare</th>
+                        <th>Utgivningsår</th>
+                        <th>Genre</th>
+                        <th>Lånestatus</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tabell-body"> <!-- body och foot separeras så att kravet att den
+                    sista raden ska ha olik styling kan uppnås -->
+
+                    </tbody>
+                    <tfoot id="tabell-footer">
+
+                    </tfoot>
+                </table>
+            </section>
         </main>
         <footer>
             <nav>
-                <a href="kontakt.html"> Vill du kontakta oss? Klicka här! </a>
-                <br>
-                <br>
-                <br>
-                <a href="login.html"> För anställda på "Bibliotek" </a>
+                <ul>
+                    <ol class="nav"><a href="kontakt.html"> Vill du kontakta oss? Klicka här! </a></ol>
+                    <ol class="nav"><a href="login.html"> För anställda på "Bibliotek" </a></ol>
+                </ul>
             </nav>
         </footer>
         <script src="script.js"></script>

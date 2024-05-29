@@ -9,3 +9,5 @@ passwordbutton.addEventListener("click", function (e){
     if(submittedpassword === "zzyzyva"){window.location="admin.html"}
         else{loginp.innerText = "Fel lösenord!";   loginp.style.color = "red"}
 })
+
+//simpelt, kollar om lösenordet användaren skrivit in är rätt eller inte, är det rätt så kommer man till admin.html

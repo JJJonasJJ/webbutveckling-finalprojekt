@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../css/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="../bilder/loggabild.png" alt="Täbys Logotyp" id="logga">
+            <h1>OBS! Denna sida är enbart till för anställda på biblioteket.</h1>
+        </header>
+        <section>
+            <form>
+                <p id="logininfo">Skriv in lösenord och tryck på OK (eller tryck på ENTER) för att nå admin-hemsidan.</p>
+                <input type="password" id="loginform">
+                <input type="submit" value="OK" id="submitbutton">
+            </form>
+        </section>
 
 
-<form>
-    <p id="logininfo">Skriv in lösenord och tryck på OK (eller tryck på ENTER) för att nå admin-hemsidan.</p>
-
-    <input type="password" id="loginform">
-
-    <input type="submit" value="OK" id="submitbutton">
-
-</form>
-
-<br>
-<br>
-<a href="index.html"> Klicka här för att återvända till de vanliga biblotekssidorna</a>
-
-<footer>
-
-</footer>
-<script src="scriptlogin.js"></script>
-</body>
+        <footer>
+            <nav>
+                <ul>
+                    <ol class="nav"><a href="index.html"> Klicka här för att återvända till de vanliga biblotekssidorna</a></ol>
+                </ul>
+            </nav>
+        </footer>
+        <script src="scriptlogin.js"></script>
+    </body>
 </html>
